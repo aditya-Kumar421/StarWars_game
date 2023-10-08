@@ -1,0 +1,88 @@
+body {
+    background-image: url(bkgimage.jpg);
+    background-size: cover;
+}
+
+.grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.results {
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.invader {
+    background-image: url(invader.jpeg);
+    background-size: cover;
+}
+
+.shooter {
+    background-image: url(shooter.png);
+    background-size: cover;
+}
+
+.laser {
+    background-image: url(rocket.png);
+    background-size: cover;
+}
+
+.boom {
+    background-image: url(explosion.png);
+    background-size: cover;
+}
+
+@media (max-width:700px) {
+    .grid {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-image: url(bkgimage.jpg);
+        background-size: cover;
+    }
+
+    .grid div {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-height:700px) {
+    .grid {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-image: url(bkgimage.jpg);
+        background-size: cover;
+    }
+
+    .grid div {
+        width: 20px;
+        height: 20px;
+    }
+}
