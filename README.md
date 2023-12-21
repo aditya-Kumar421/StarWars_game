@@ -14,6 +14,9 @@ How to Play:
 Download/Clone Repository
 Open the index.html file in your preferred web browser.
 Use the specified keys to control your character.
+-----OR------
+Just click on following link: https://star-wars-game-phi.vercel.app/
+
 Enjoy the game and try to achieve the highest score!
 
 Technologies Used:
