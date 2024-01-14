@@ -1,4 +1,5 @@
 const grid = document.querySelector('.grid')
+const inst = document.querySelector('.start')
 const resultDisplay = document.querySelector('.results')
 let currentShooterIndex = 202;
 let width = 15;
@@ -121,7 +122,9 @@ function shoot(e) {
     }
     switch (e.key) {
         case 'ArrowUp':
-            laserId = setInterval(moveLaser, 100)
+            laserId = setInterval(moveLaser, 500)
+        case ' ':
+            laserId = setInterval(moveLaser, 500)
     }
 }
 document.addEventListener('keydown', shoot)
