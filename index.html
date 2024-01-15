@@ -3,12 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Wars</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Star Wars - Homepage</title>
+    <style>
+        body{
+            /* background-image: url('https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+            background-color: #2b2739;
+        }
+        .homepage h1{
+            text-align: center;
+            background-color:rgb(170, 115, 43);
+        }
+        .start-button{
+            display:flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding:10px 25px;
+            border: 2px solid #2b2739;
+            background-color: rgb(34, 132, 178);
+            border-radius: 25px;
+            font-size: large;
+            color:rgb(0, 4, 74);
+        }
+        h3{
+            text-align: center;
+            /* padding-top: 14vh; */
+            color:rgb(15, 34, 20);
+            }
+        h4{
+          
+            color:rgb(31, 21, 73);
+            padding-left:70px;
+        }
+        .box{
+            padding:-200px;
+            border: 3px solid black;
+            border-radius: 15px;
+            padding-top: 30p;
+            margin:0 25vw;
+            background-color: #cf5f5f;
+            /* background-image: url('https://wallpapers.com/images/hd/purple-galaxy-space-background-htygkta8z6o3mcx2.jpg'); */
+            z-index: 5;
+        }
+        h6{
+            text-align: center;
+            color:#bdbaba;
+            margin:0px;
+            padding-bottom: 50px;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <body>
-    <h1 class="results">0</h1>
-    <div class = "grid"></div>
+    <div class="homepage">
+        <h1>Welcome to Star Wars</h1>
+        <button class="start-button" onclick="startGame()">Start</button>
+        <h6>*(Click here to start the game)</h6>
+        <div class="box">
+            <h3>Follow given instructions for user friendly intraction: </h3>
+        <h4>1. Click ^ arrow or space bar to fire on enemy.</h4>
+        <h4>2. Click > arrow to shift your spaceship towards right.</h4>
+        <h4>3. Click < arrow to shift your spaceship towards left.</h4>
+        <h4>4. Refresh the page to start again.</h4>
+        </div>
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>
